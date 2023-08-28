@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KRAZY8</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+
+    <h1>Hi There!</h1>
+    <p1>Each link shown below the images redirects the user to a different page. Give it a shot!</p1> 
+<main>
+    {% block content %}
+    <ul class="list">
+        <li class="list__item">
+          <a href="/1">
+          <img class="item__img" src="https://cdn3.emoji.gg/emojis/6878_HeheBoi.png" alt="home">
+          <span>Stale Jokes!</span></a>
+        </li>
+        
+        <li class="list__item">
+          <a href="/2">
+          <img class="item__img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEeQoeRVjkSNIkyIKnXaXj73NS-C384olTG7z8Q-L6wvCTDrOXBUbOcCfZhOugu4cTwEQ&usqp=CAU" alt="home">
+          <span>Facts!</span></a>
+        </li>
+        <li class="list__item">
+          <a href="/3">
+          <img class="item__img" src="https://www.arimetrics.com/wp-content/uploads/2020/01/widget-2.png" alt="home">
+          <span>Wanna see some cool widgets!</span></a>
+        <!--  -->
+        </li>
+      </ul>
+      {% endblock %}
+
+
+</main>
+    
+</body>
+</html>
